@@ -25,7 +25,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Configure MongoDB
-MONGO_URI = "mongodb+srv://krishthakkar0333:krish123@datathonkj.wb2bg.mongodb.net/?retryWrites=true&w=majority&appName=DatathonKJ"
+MONGO_URI = "###################################"
 client = MongoClient(MONGO_URI)
 db = client.test
 interaction_collection = db.adinteractions
